@@ -1,19 +1,24 @@
 {
-  "name": "meanauthapp",
+  "name": "kert",
   "version": "1.0.0",
-  "description": "MEAN stack authentication app",
+  "description": "KERT WEB APPLICATION BASIC",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KERT-core/kertWeb.git"
+  },
   "dependencies": {
-    "express": "*",
-    "mongoose": "*",
     "bcryptjs": "*",
-    "cors": "*",
-    "jsonwebtoken": "*",
     "body-parser": "*",
+    "cors": "*",
+    "dashdash": "^1.14.1",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
     "passport": "*",
     "passport-jwt": "*"
   },
