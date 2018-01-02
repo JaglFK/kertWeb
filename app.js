@@ -6,6 +6,7 @@ const passport = require('passport');
 const mongoose = require('mongoose');
 const config = require('./config/database');
 
+
 // Connect To Database
 mongoose.connect(config.database);
 
@@ -39,7 +40,7 @@ app.use(bodyParser.json());
 // Passport Middleware
 app.use(passport.initialize());
 app.use(passport.session());
-  
+
 require('./config/passport')(passport);
 
 
